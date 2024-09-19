@@ -30,6 +30,7 @@ form{
 
 input[type="search"] {
     width: 80%;
+    height: 35px;
     border-radius: 10px;
     text-align: center;
 }
@@ -37,7 +38,7 @@ body{
     background-color: #6A5ACD;
 }
 .carrossel{
-    overflow: hidden;
+    overflow:hidden;
     position:relative;
     align-items: center;
     width: calc(100% - 100px);
@@ -51,7 +52,7 @@ object-fit: cover;
 .slides{
     display: flex;
     width: calc(350*7);
-    animation: deslizar 18s infinite alternate;
+    animation: deslizar 8s infinite alternate;
 }
 @keyframes deslizar{
     from{
@@ -62,6 +63,36 @@ object-fit: cover;
     }
 }
 
+h2{
+    margin-left: 50px;
+    color: #ffffff
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 20px;
+    justify-content: center;
+    /* justify-content: center; */
+    max-width: 1800px;
+    /* flex-direction: column; */
+    gap: 10px;
 
+}
+.card{
+    width: 350px;
+    height: 470px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 12px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+}
+    
 
-
+.card img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
