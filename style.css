@@ -5,13 +5,17 @@
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #000080;
     border: 2px;
     align-items: center;
     color: #ffffff;
-    padding: 16px;
+    padding: 20px;
     margin-bottom: 24px;
+}
+nav img{ 
+    height: 60px;
+    width: 60px;
 }
 nav li{
     list-style: none;
@@ -95,4 +99,12 @@ h2{
     width: 350px;
     object-fit: cover;
     border-radius: 12px;
+}
+
+footer{
+
+    background-color: #000080;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
 }
